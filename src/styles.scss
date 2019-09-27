@@ -2,7 +2,9 @@ html, body, #root {
   height: 100%;
 }
 body {
-  background: #333;
+  background-image: url('carLot.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
   margin: 0;
   display: grid;
   padding: 3em;
@@ -19,6 +21,8 @@ body {
   flex-direction: column;
   height: 90%;
   margin-bottom: 20px;
+  box-shadow: 5px 5px 3px black;
+  background-color: rgb(159, 255, 255);
   h1 {
     font-size: 20px;
     margin: 0 0 1rem 0;
@@ -36,7 +40,7 @@ body {
   }
 }
 .button {
-  background: hotpink;
+  background: #53b163;
   border: 1px solid transparent;
   color: white;
   margin-right: 1em;
